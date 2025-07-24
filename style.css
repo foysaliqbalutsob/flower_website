@@ -276,8 +276,36 @@ button{
 
 /* footer-bannar section ends*/
 
+.footer{
+    display: flex;
+    gap:80px;
+    padding: 20px;
+    margin-top: 30px;
+    
+    justify-content: center;
+    
+
+}
 
 
+
+
+.sponsor{
+    display: flex;
+    
+    gap: 20px;
+    height: 60px;
+    
+    
+}
+.sponsor img{
+    width: 30px;
+    height: 30px;
+}
+.list-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
 
 
 
@@ -306,7 +334,7 @@ button{
     margin-bottom: 0;
     padding: 0;
     margin: 0 auto;
-    border: solid;
+    
     justify-content: center;
 }
    
@@ -415,7 +443,7 @@ button{
     padding: 0;
     width:100%;
     object-fit: contain;
-    border: solid;
+    
 }
 .badge-section-img{
     margin-top: 10px;
@@ -429,6 +457,10 @@ button{
     visibility: hidden; 
 
 }
+.icon{
+    display: flex;
+    padding-top: 16px;
+}
 
 
 
@@ -441,7 +473,9 @@ button{
 
 
 
-
+.footer{
+    flex-direction: column;
+}
 
 
 
@@ -450,19 +484,26 @@ button{
     font-size: 20px;
     font-weight: 700;
 }
-
+ 
 input[type="text"] {
-  padding: 20px 50px 20px 5px;
-  border: none;
+  padding: 20px 30px 20px 3px;
+  margin-left: 2px;
+  
   margin-right: 0;
 }
 .footer-banner-heading button{
     padding: 20px 20px;
     margin-left: 0;
 }
+.footer{
+    gap: 10px;
 
+}
+.list-1 ul li{
 
+    gap: 10px;
 
+    
 }
 
     
