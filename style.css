@@ -17,6 +17,13 @@
   font-optical-sizing: auto;  
   font-style: normal;
 }
+.btn-primary{
+    
+    background-color:rgb(233, 90, 8);
+    padding:10px 50px 10px 50px ;
+    border: none;
+    color: white;
+}
 
 
 
@@ -45,7 +52,7 @@
 }
 
 .icon{
-        display:flex;
+        display:inline
     }
 .logo img{
     width: 100%;
@@ -65,6 +72,7 @@
 }
 .hero-section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .banner{
@@ -82,22 +90,58 @@
 }
 
 .banner-heading h2{
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 700;
     color: rgb(37, 36, 50);
 }
 
 .banner-heading p{
-    font-size: 22px;
+    font-size: 1.325rem;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
 
 
+/* hero banner section end */
+
+/* card section starts */
+
+.card-container-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.card-container-heading h3{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.card-container-heading p{
+    text-align: center;
+    font-size: 1.325rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.card-container-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.card-container img{
+    width: 100%;
+    object-fit: contain;
+}
+.card-container{
+    padding: 0;
+    
+}
+.card-container button{
+    width: 100%;
+}
 
 
-
-
+/* card section ends */
 
 
 
@@ -123,33 +167,93 @@
 
 @media screen and (max-width:576px) {
 
-    .header{
-        margin-bottom: 0;
-        padding: 0;
-    }
-    .icon{
-        display: block;
-    }
+.header{
+    margin-bottom: 0;
+    padding: 0;
+    margin: 0 auto;
+    border: solid;
+    justify-content: center;
+}
+   
+    
+
+.icon{
+    visibility: visible;
+    gap: 0;
+} 
+    
     
 
 
 
-    .nav-links{
-        visibility: hidden;
+.nav-links{
+    visibility: hidden;
        
-    }
+}
 
-    .hero-section{
-        flex-direction: column-reverse;
-        flex-wrap: nowrap;
-        padding: 0;
-    }
-    .banner-heading{
-        padding: 0;
-        margin-left: 5px;
-        margin-right: 5px;
+.hero-section{
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.banner-heading{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 95%;
 
-    }
+}
+.banner-heading h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(37, 36, 50);
+}
+    .banner-heading p{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.card-container-heading h3{
+    font-size: 2rem;
+}
+.card-container-heading p{
+    font-size: 1rem;
+}
+.card-container-heading{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    width: 100%;
+}
+.card-container-heading h3 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.card-container-heading p{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.card-container-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width:100%; 
+    margin: 5px auto;
+    padding: 0;
+}
+.card-container img{
+    padding: 0;
+}
+.card-container{
+    
+    padding: 0;
+    margin: 0;
+}
+
     
     
 } 
