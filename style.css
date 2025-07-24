@@ -127,6 +127,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
+    margin-bottom: 200px;
 }
 .card-container img{
     width: 100%;
@@ -142,6 +143,63 @@
 
 
 /* card section ends */
+
+/* badge section starts */
+.badge-section{
+    display: flex;
+    flex: 1;
+    gap: 50px; 
+    
+   
+
+}
+.badge-section-img{
+    width:50%;
+    
+    position: relative;
+}
+.badge{
+    position: absolute;
+    /* width: 250px;
+    height: 300px; */
+    top: -200px;
+    left: 180px;
+    background: transparent;
+
+}
+
+
+
+
+
+
+.badge-section-img img{
+    
+    width: 100%;
+     
+    padding-left: 20px;
+    
+
+}
+.badge-heading{
+    width: 100%;
+    padding: 50px;
+    flex:50%;
+    
+    
+}
+.badge-heading h3{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+.badge-heading ul li{
+    color:rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+
+}
+
+
 
 
 
@@ -241,7 +299,7 @@
 .card-container-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    width:100%; 
+    width:95%; 
     margin: 5px auto;
     padding: 0;
 }
@@ -254,6 +312,38 @@
     margin: 0;
 }
 
+.badge-section{
+    flex-direction: column;
+    border: none;
+    height: 550px;
+}
+.badge-heading{
+    padding: 0;
+    padding-top: 0px;
+    
+}
+.badge-heading h3{
+    font-size: 24px;
+}
+.badge-heading{
+    font-size: 14px;
+}
+.badge-section-img img{
+    padding: 0;
+    width:100%;
+    object-fit: contain;
+}
+.badge-section-img{
+    margin-top: 10px;
+    width: 100%;
+    
+}
+.badge{
+    visibility: hidden;
+}
+
+
+}
+
     
     
-} 
