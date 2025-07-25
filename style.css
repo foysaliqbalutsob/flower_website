@@ -217,7 +217,69 @@
 
 
 
+
+
+
 /* deal card section starts */
+
+.deal-card{
+    margin-bottom: 150px;
+    /* display: grid; */
+    padding: 10px;
+}
+.left-deal-top{
+    background-image: url('./assets/deal-bloom.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+
+    
+}
+.deal-text{
+    text-align: center;
+    background: transparent;
+
+}
+.right-deal-bottom {
+background-image: url('./assets/deal-ana.png');
+background-size: cover;
+background-position: center;
+border-radius: 10px;
+height: 250px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+object-fit: cover;
+    
+}
+.rightside-deal{
+    background-image: url('./assets/deal-zabo.png');
+background-size: cover;
+background-position: center;
+border-radius: 10px;
+height: 510px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+object-fit: cover;
+
+}
+
+
+  
+
+
+
+
+
 
 
 /* footer-bannar section starts */
@@ -243,6 +305,7 @@
   
   
   
+  
 }
 .footer-banner-heading h3{
     margin-bottom: 20px;
@@ -256,7 +319,7 @@
 
 
 input[type="text"] {
-  padding: 20px 500px 20px 10px;
+  padding: 20px 300px 20px 20px;
   border: none;
   margin-right: 0;
   
@@ -271,6 +334,9 @@ button{
   color: white;
   cursor: pointer;
   margin-left: 0;
+}
+.foot-btn{
+    display: flex;
 }
 
 
@@ -489,11 +555,11 @@ input[type="text"] {
   padding: 20px 30px 20px 3px;
   margin-left: 2px;
   
-  margin-right: 0;
+  
 }
 .footer-banner-heading button{
-    padding: 20px 20px;
-    margin-left: 0;
+    padding: 20px 10px 20px 10px;
+    
 }
 .footer{
     gap: 10px;
@@ -504,6 +570,10 @@ input[type="text"] {
     gap: 10px;
 
     
+}
+.foot-btn{
+    width: 95%;
+}
 }
 
     
